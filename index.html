@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet"> 
+    <title>Bill Generator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="heading">
+        <div class="fontNoto fontSize40 textCenter colorWhite">Restaurants Bill Generator</div>
+    </div>
+    <br><br><br>
+    <div class="box">
+        <div>
+            <P class="fontSize20 textCenter">Enter Details</P>
+            <label class="marginLeft">Enter Item Name</label>
+            <input id="name" class="inputBox" type="text">
+            <label class="marginLeft">Enter Price</label>
+            <input id="price" class="inputBox" type="number">
+            <label class="marginLeft">Quantiy</label>
+            <input id="quantity" class="inputBox" type="number">
+
+            <button id="order" onclick="orderItem()" class="marginLeft btn">Add Item</button>
+            <!-- <button id="check" onclick="checkItem()"class="marginLeft btn">Chek Item</button> -->
+            <br><br>
+            <label class="marginLeft300">Discount %</label>
+            <input id="discount" class="inputBox" type="text">
+            <label class="marginLeft">Tax</label>
+            <input id="tax" class="inputBox" type="text">
+            <button id="bill" onclick="generateBill()" class="marginLeft btn">Generate Bill</button>
+            <p  class="textCenter"></p>
+        </div>
+    </div>
+    <br><br>
+    <div id="outputContainer" class="resultBox">
+        <div class="textCenter fontSize20">Added Item List</div>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantiy</th>
+                <th>Total</th>
+                <th>Edit</th>
+            </tr>
+            <tbody id="tableData"></tbody>
+        </table>
+        <div id="display" class="textCenter"></div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

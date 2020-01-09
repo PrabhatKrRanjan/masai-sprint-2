@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient( 106.8deg,  rgba(117,255,220,1) 6%, rgba(163,216,255,1) 47.6%, rgba(248,215,251,1) 87.8% );
+
+}
+.fontNoto {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.fontSize40 {
+    font-size: 40px;
+}
+.fontSize20 {
+    font-size: 20px;
+}
+.colorWhite {
+    color: white;
+}
+.marginLeft300 {
+    margin-left: 300px;
+}
+.textCenter {
+    text-align: center;
+}
+.marginLeft {
+    margin-left: 20px;
+}
+/* Nav Flex */
+.heading {
+    height: 50px;
+    padding: 35px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: linear-gradient( 109.6deg,  rgba(27,27,79,1) 11.2%, rgba(120,201,244,1) 100.2% );
+}
+.box {
+    height: 200px;
+    width: 1100px;
+    padding: 10px;
+    margin-left: 400px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.inputBox {
+    height: 20px;
+    width: 120px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.btn {
+    height: 35px;
+    width: 120px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.resultBox {
+    height: fit-content;
+    width: 1100px;
+    padding: 10px;
+    margin-left: 400px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+table, tr, th ,td {
+    border: 1px solid black;
+    width: 1100px;
+}
+
+a {
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: black;
+}
